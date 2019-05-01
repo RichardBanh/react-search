@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe");
+
+* {
+  font-family: "ZCOOL KuaiLe", cursive;
+}
+
+.flexbox-center {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  width: 75%;
+  height: 50px;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  font-size: 40px;
+}
+
+label {
+  font-size: 40px;
+}
