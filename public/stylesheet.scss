@@ -20,3 +20,15 @@ input {
 label {
   font-size: 40px;
 }
+
+.image-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: 10px;
+  grid-gap: 0px 10px;
+}
+
+.image-list .img {
+  width: 250px;
+  grid-row-end: 2;
+}
